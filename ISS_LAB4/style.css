@@ -1,0 +1,90 @@
+.content {
+    border: 5px outset darkcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: midnightblue;
+}
+
+ul {
+    list-style-type: square;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-picker {
+    padding: 60px;
+}
+
+h2 {
+    font-size: 2cm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgreen;
+    text-align: left;
+}
+
+.poster-switcher1:hover {
+    font-size: 14px;
+}
+
+.poster-switcher2:hover {
+    font-size: 14px;
+}
+
+.poster-switcher3:hover {
+    font-size: 14px;
+}
+
+.poster-switcher4:hover {
+    font-size: 14px;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    border: 3px outset plum;
+}
+
+.color-picker {
+    border: 5px outset plum;
+    height: 40px;
+    width: 120px;
+    align-content: center;
+    bottom: 0;
+    right: 100px;
+    position: fixed;
+    border-radius: 12px;
+    align-content: center;
+}
+
+button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    color: mintcream;
+}
+
+@keyframes background-color;
+{
+    100% {
+        background-color: #4065F3;
+    }
+}
+
+.color-picker1:hover {
+    background-color: blue;
+    border-radius: 50%;
+    vertical-align: 12ch;
+    padding: 16px;
+}
+
+.color-picker2:hover {
+    background-color: red;
+    border-radius: 50%;
+    vertical-align: 12ch;
+    padding: 16px;
+}
+
+.color-picker3:hover {
+    background-color: green;
+    align-content: right;
+    border-radius: 50%;
+    vertical-align: 12ch;
+    padding: 16px;
+}

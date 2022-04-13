@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Anirudh Kaushik</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+
+</head>
+
+
+<body>
+
+    <div class="navigator" id="navigator1">
+        <img src="../img/scp/scp.jpeg">
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="home1" href="index.html">HOME</a>
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="aboutme1" href="aboutme.html">ABOUT ME</a>
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="contact1" href="contact.html">CONTACT</a>
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="gallery1" href="gallery.html">GALLERY</a>
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="skills1" href="skills.html">SKILLS</a>
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="game1" href="game.html">GAME</a>
+        <script>
+            $(".navigator").css("position", "fixed");
+            $(".navigator").css("top", "0")
+        </script>
+    </div>
+    <div style="width: 1920px; height: 1000px; background-color: black;" class="galleryparent">
+        <div class="gallery">
+            <img class="onclickgallery " src="../img/img1.jpg " id="galleryonclick" onclick="whenclicked()">
+        </div>
+        <p>Click to change, scroll down for gallery and external images </p>
+    </div>
+    <!-- Gallery -->
+    <div class="row" style="background-color: black;">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img src="../img/img1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+            <img src="../img/img2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="../img/img3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+            <img src="../img/img4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="../img/img5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+            <img src="../img/bg2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+        </div>
+        <!-- External link images -->
+        <h1 style="color:white; ">Images Included Through External Link</h1><br><br> 
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img src="https://i.pinimg.com/originals/fe/42/96/fe4296a0468c0d9c8f4b6349bd6fd544.png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+            <img src="https://cdnb.artstation.com/p/assets/images/images/000/242/685/large/daniel-rudnicki-zwei-lighthouse-sketch.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="https://qph.fs.quoracdn.net/main-qimg-a73bad779d9f3d13c5c2c5dafa085bda" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+            <img src="https://cms-assets.tutsplus.com/uploads/users/358/posts/25363/image/00-final-product-final.gif" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="https://cg3.cgsociety.org/uploads/images/medium/inkcloud-six-little-nightmare-3-b9f7636d-88bj.gif" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+            <img src="https://i.redd.it/l23meq2mzvh61.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+        </div>
+        
+        
+    </div>
+    <!-- Gallery -->
+
+
+
+</body>
+
+</html>

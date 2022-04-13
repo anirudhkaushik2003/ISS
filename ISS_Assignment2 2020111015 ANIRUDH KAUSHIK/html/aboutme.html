@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Anirudh Kaushik</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+
+</head>
+
+
+
+<body style="background-color: black;">
+
+
+    <div class="navigator" id="navigator1">
+        <img src="../img/scp/scp.jpeg">
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="home1" href="index.html">HOME</a>
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="aboutme1" href="aboutme.html">ABOUT ME</a>
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="contact1" href="contact.html">CONTACT</a>
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="gallery1" href="gallery.html">GALLERY</a>
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="skills1" href="skills.html">SKILLS</a>
+        <a onmouseover="hoverfunction(this)" onmouseout="unhover(this)" id="game1" href="game.html">GAME</a>
+        <script>
+            $(".navigator").css("position", "fixed");
+            $(".navigator").css("top", "0")
+        </script>
+    </div>
+    <div class="part2">
+        <h1>About Me</h1>
+        <pre>
+ I was born in New Delhi. My Dad served in the navy for 22 years and now my Brother has also joined the navy.
+ I enjoy making things and have been working on a 2d platformer game called "Red Riding hood" where we play
+ as Red riding hood and have to travel through a forest killing minotaurs and collecting flowers. I like Reading,
+ and am currently reading "house of leaves". I like using things for purposes other than what they were intended for. 
+ I like horse riding, scuba diving, playing the guitar, playing the piano, trekking and travelling. I am a thrill
+ seeker but now that I have taken CS, I am afraid that's no longer possible.
+</pre>
+    </div>
+    <div class="part1">
+        <br>
+        <h1>My Hobbies</h1><br>
+        <pre style="font-size: 40px; font-family:Georgia, 'Times New Roman', Times, serif;">Reading SCP Tales</pre>
+        <pre>
+ One of my favourite pass times is to read SCP tales. The SCP foundation is a fictional organization that is 
+ responsible for the containment of anomalous objects and entities, which may or may not be harmful. These 
+ entities are classified into: Safe, Euclid and Keter based on their level of sentience and the ease of
+ containing them. The Home page is themed after the SCP Website front page.
+ Enjoy this SCP slide show:(click to change)</pre>
+        <div class="scpslide">
+
+            <img class="slideshow" src="../img/scp/img1.jpg " id="scponclick" onclick="scpclicked()">
+        </div>
+        <pre style="font-size: 40px; font-family:Georgia, 'Times New Roman', Times, serif;">Guitar</pre>
+        <pre>
+            <img src="../img/guitar.gif" style="float: right;">
+ I really enjoy playing the guitar (not as much as the piano though)  
+ and have been playing it for around 7 years now. Recently my dad 
+ bought an electric guitar so now I've learnt a couple of songs on 
+ that as well. I performed in a "science rap" (or so it was called)
+ and our team won first prize (it was an inter-house activity). That 
+ was the first (and last) time I participated in such an event. 
+ Next year my CS teacher tried to make me participate in an interschool
+ movie making competition. I left CS and took P.Ed. (note that
+ both these events are unrelated in every way).
+        </pre>
+        <pre style="font-size: 40px; font-family:Georgia, 'Times New Roman', Times, serif;">Piano</pre>
+        <pre>
+            <img src="../img/StrayCat.gif" style="float: right; padding: 50px; width: 800px;">
+ I started playing the piano last year 
+ (around october or november). 
+ I learnt to read sheet music so that 
+ it becomes easier to learn new songs.
+ Below is part of a song called
+ "They try Harder" from Stray Cat Crossing,
+ played by me:</pre>
+        <audio controls>
+            <source src="Cer3.mp3">
+        </audio>
+    </div>
+
+
+
+
+</body>
+
+</html>

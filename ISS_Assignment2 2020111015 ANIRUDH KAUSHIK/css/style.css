@@ -1,0 +1,269 @@
+.Warning {
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+    margin: auto;
+    border: darkred 2px;
+}
+
+pre {
+    font-size: 32px;
+    color: darkred;
+}
+
+.navigator {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    opacity: 0.75;
+    color: whitesmoke;
+    text-decoration: none;
+    z-index: 300;
+}
+
+.stick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigator a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1.6% 1.6%;
+    text-decoration: none;
+    font-size: 180%;
+    color: inherit;
+}
+
+.navigator img {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1.6% 1.6%;
+    text-decoration: none;
+    width: 120px;
+    height: 120px;
+    color: inherit;
+}
+
+.coverpage {
+    width: 50%;
+    position: relative;
+    top: 150px;
+    left: 25%;
+    margin: auto;
+}
+
+.game {
+    background-color: black;
+    position: absolute;
+    top: 400px;
+    bottom: 50%;
+    left: 35%;
+    right: 50%;
+    margin: auto;
+}
+
+.gallery {
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    left: 35%;
+    right: 50%;
+    width: 610px;
+    height: 610px;
+    border: outset 5px darkred;
+    z-index: 2;
+}
+
+.onclickgallery {
+    width: 600px;
+    height: 600px;
+}
+
+.slideshow {
+    width: 350px;
+    height: 350px;
+}
+
+.scpslide {
+    width: 356px;
+    height: 356px;
+    border: outset 3px darkred;
+    z-index: 2;
+}
+
+.part2 {
+    position: relative;
+    top: 110px;
+    background-color: black;
+}
+
+.part2 h1 {
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.part2 pre {
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.part1 {
+    position: relative;
+    top: 90px;
+    background-color: black;
+}
+
+.part1 h1 {
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.part1 pre {
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.galleryparent p {
+    position: relative;
+    top: 140px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+
+.userform {
+    position: absolute;
+    top: 140px;
+    padding: 20px;
+    color: black;
+    font-family: fantasy;
+}
+
+.userform label {
+    font-size: 32px;
+    font-family: fantasy;
+    background-image: url(../img/biogun.jpg);
+    background-size: 60px 60px;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+.userform input {
+    font-size: 22px;
+    font-family: fantasy;
+    background-image: url(../img/beacon.png);
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+.userform select {
+    font-size: 32px;
+    font-family: fantasy;
+    background-image: url(../img/beacon.png);
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+.userform option {
+    font-size: 32px;
+    font-family: fantasy;
+    color: darkolivegreen;
+}
+
+.displaytable {
+    position: absolute;
+    top: 480px;
+    width: 90%;
+    padding: 80px;
+    font-family: fantasy;
+}
+
+#tableUp {
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+.contact1 {
+    position: absolute;
+    top: 140px;
+}
+
+.contact1 h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+@keyframes run {
+    0% {
+        transform: translateX(100px);
+    }
+    30% {
+        transform: translateX(400px);
+    }
+    50% {
+        transform: translateX(400px);
+    }
+    80% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+.contact1 {
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    text-align: center;
+}
+
+#img2 {
+    position: re;
+    animation: run 5s linear 0s infinite alternate;
+}
+
+.contact1 h2 {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contact1 a {
+    color: whitesmoke;
+    text-decoration: none;
+    border: outset 3px black;
+    background-image: url(../img/six_2.jpg);
+    background-size: 40px 60px;
+    ;
+}
+
+#img1 {
+    width: 20px;
+    height: 20px;
+}
+
+.mergedtable {
+    position: absolute;
+    left: 600px;
+}
+
+.mergedtable th {
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    font-size: 32px;
+}
+
+.mergedtable td {
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    font-size: 32px;
+}
